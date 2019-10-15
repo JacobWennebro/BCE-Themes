@@ -7,4 +7,4 @@ Nordic
 XP
 ![alt text](https://i.imgur.com/ue1nx3n.png "XP theme")
 Phantom
-![alt text](https://i.imgur.com/ed2qBRL.png "Phantom theme")
+![alt text](https://i.imgur.com/48HTBaa.png "Phantom theme")
