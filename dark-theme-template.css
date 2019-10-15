@@ -1,0 +1,59 @@
+/* ======================================================== */
+/*
+
+█▀▀▄ █░░ █▀▀█ █░█ ░▀░ █░░ ░▀░ ▀▀█▀▀ █░░█
+█▀▀▄ █░░ █░░█ ▄▀▄ ▀█▀ █░░ ▀█▀ ░░█░░ █▄▄█
+▀▀▀░ ▀▀▀ ▀▀▀▀ ▀░▀ ▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░ ▄▄▄█
+== CHROME EXTENSION THEMING TEMPLATE ==
+=== Made by GitHub.com/JacobWennebro ===
+
+<!> Always use !important to make
+sure you are overriding Roblox defaults.
+
+<!> Examples are always highlighted in red.
+
+*/
+
+/* ======================================================== */
+
+:root {
+    /* DARK-THEME DEFAULTS */
+    --background: #232527;
+    --overlay: #393b3d;
+    --header: #191b1d;
+
+    --font-family: "HCo Gotham SSm","Helvetica Neue","Helvetica","Arial","Lucida Grande","sans-serif";
+}
+* {
+    /* <#> UNIVERSAL */
+    font-family: var(--font-family);
+}
+
+/* ======================================================== */
+
+/* <#> BODY */
+body {
+    background-color: var(--background) !important;
+}
+/* <#> HEADER */
+div#header {
+    background-color: var(--header) !important;
+}
+/* <#> FOOTER */
+footer {
+    background-color: var(--background) !important;
+}
+/*  <#> PRIMARY OVERLAY (ex: https://i.imgur.com/qTxtJtw.png) */
+.section-content,
+.profile-avatar-mask,
+.slide-item-container-right {
+    background-color: var(--overlay) !important;
+}
+/* <#> GAME CARDS CONTAINER (ex: )*/
+.content .games-lists-multiple .games-list-container {
+    background-color: var(--background) !important;
+}
+/* <#> HOME CONTAINER (ex: https://i.imgur.com/pdtMb6B.png) */
+div#HomeContainer {
+    background-color: red !important;
+}
