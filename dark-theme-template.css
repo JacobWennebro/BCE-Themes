@@ -23,6 +23,9 @@ sure you are overriding Roblox defaults.
     --header: #191b1d;
 
     --font-family: "HCo Gotham SSm","Helvetica Neue","Helvetica","Arial","Lucida Grande","sans-serif";
+
+    --roblox-logo: url(https://images.rbxcdn.com/1359485336f67d6e7be76b5e8ff4b72c-roblox_logo_11212016.svg);
+    --roblox-r-logo: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+PHBhdGggZD0iTTguMyAzLjdMMy42IDIxLjhsMTguMSA0LjYgNC42LTE4LjEtMTgtNC42em04IDEzLjZsLTMuNS0uOS45LTMuNSAzLjUuOS0uOSAzLjV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
 }
 * {
     /* <#> UNIVERSAL */
@@ -34,6 +37,14 @@ sure you are overriding Roblox defaults.
 /* <#> BODY */
 body {
     background-color: var(--background) !important;
+}
+/* <#> ROBLOX HEADER LOGO */
+.icon-logo {
+    background-image: var(--roblox-logo) !important;
+}
+/* <#> ROBLOX HEADER (R)LOGO */
+.icon-logo-r {
+    background-image: var(--roblox-r-logo) !important;
 }
 /* <#> HEADER */
 div#header {
@@ -56,4 +67,8 @@ footer {
 /* <#> HOME CONTAINER (ex: https://i.imgur.com/pdtMb6B.png) */
 div#HomeContainer {
     background-color: transparent !important;
+}
+/* <#> LEFT-SIDE NAVIGATION BAR */
+div#navigation {
+    background-color: var(--header) !important;
 }
