@@ -55,5 +55,5 @@ footer {
 }
 /* <#> HOME CONTAINER (ex: https://i.imgur.com/pdtMb6B.png) */
 div#HomeContainer {
-    background-color: red !important;
+    background-color: transparent !important;
 }
